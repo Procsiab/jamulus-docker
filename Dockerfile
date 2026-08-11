@@ -1,5 +1,5 @@
 FROM alpine:3.24.1 as builder
-ENV releaseversion=r3_12_3
+ENV releaseversion=r3_12_4
 
 RUN \
  echo "**** updating system packages ****" && \
